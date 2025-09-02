@@ -1,3 +1,6 @@
+"use client ";
+
+
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -9,9 +12,6 @@ const nextConfig: NextConfig = {
         hostname: "**",
       },
     ],
-  },
-  experimental: {
-    ppr: "incremental",
   },
 };
 
